@@ -1,0 +1,172 @@
+/*
+# Project Name: MPCI-CORPORATE
+# Discription:	MPCI-CORPORATE is new division of Midtown Printing Company Incorporated (MPCI) for creative task.
+# Developer:	Fil Elman
+# Version:		mpci-corporate 1.0
+# Website:		www.mpcicorporate.com
+# copyright:	@Copyright 2014
+*/
+
+@charset "utf-8";
+@import url(css/mpci_slider.css);
+@import url(css/mpci_left.css);
+@import url(css/mpci_top.css);
+@import url(css/mpci_signup.css);
+@import url(css/mpci_featured.css);
+@import url(css/mpci_info.css);
+@import url(css/mpci_footer_info.css);
+@import url(css/mpci_contact.css);
+@import url(css/mpci_dashboard.css);
+@import url(css/mpci_login.css);
+@import url(css/mpci_admin.css);
+@import url(css/mpci_edit_product.css);
+@import url(css/mpci_products.css);
+@import url(css/mpci_price_table.css);
+
+
+html, body, h2, ul, li, a, table, tr, td, label, fieldset{ 
+	margin:0; 
+	padding:0;
+}
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+body{
+	background:url('images/mpci-body.png') repeat-x;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-repeat:repeat-x;
+    background-attachment:fixed;
+    background-position: left top;
+    font-size: 13px;
+}
+ul{
+	list-style:none; 
+}
+h2{
+	font-size: 24px;
+	line-height: 40px;
+	color: #000;
+	text-decoration: none;
+	text-shadow: 1px 1px 1px rgba(255, 255, 255, 1);
+}
+a{
+	color: #000000;
+	font-size: 14px;
+	text-decoration: none;
+	line-height: 30px;
+}
+a:hover {
+	text-decoration: underline;
+}
+img{
+	border: 0;
+}
+strong {
+  font-weight: bold;
+}
+p{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+/*-- mpci pre-defined class --*/
+.mpci-logo{
+	background: url('images/MPCI corporate logo.png') no-repeat scroll 31px 143px transparent;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	z-index: -1;
+	opacity: 0.3;
+}
+.mpci{
+	width: 1050px;
+	margin: 0 auto;
+}
+.mpci-float-left{
+	float:left;	
+}
+.mpci-front-border{
+	border: 1px solid #9a9a9a;
+}
+.mpci-background{
+	background-color: rgba(255, 255, 255, 0.5);
+}
+.mpci-center{
+	text-align:center;
+}
+.mpci-margin {
+	margin: 5px 5px 0px 5px;
+}
+.mpci-width{
+	width:781px;
+	padding-right:2px;
+}
+.wrapper {
+	border: 1px solid #FFFFFF;
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+.mpci-content{
+	border: 1px solid #888888;
+}
+.close {
+	float: right;
+	opacity: 0.2;
+	height: 32px;
+	margin-top: 0px;
+}
+.close:hover {
+  opacity: 1;
+  filter: alpha(opacity=40);
+  cursor: pointer;
+}
+
+/*-- mpci left --*/
+#mpci-logo-back{ background: url('images/mpci-back.png') no-repeat scroll 1px 37px transparent; }
+#mpci-logo{ background: url('images/mpci-logo.png') no-repeat scroll 40px 6px transparent; }
+#mpci-left ul li div{
+	background: url('images/mpci_bullet.png') no-repeat scroll 0px 9px transparent;
+	padding-left: 15px;
+}
+
+/*-- mpci front --*/
+#mpci-main{
+	margin-top: 54px;
+	padding-bottom: 5px;
+	border-left: 1px solid #DBDBDB;
+	border-right: 1px solid #BDBDBD;
+	border-bottom: 1px solid #FFFFFF;
+	border-top: 1px solid #DBDBDB;
+}
+
+/*-- mpci top --*/
+#mpci-top,#mpci-main{
+	width: 796px;
+	margin-left: 252px;
+}
+
+/*-- mpci contact --*/
+.field {
+	border: 0px;
+}
+
+.mpci-administration ul li div{
+	background: url('images/mpci_bullet.png') no-repeat scroll 0px 9px transparent;
+	padding-left: 15px;
+}
+
+/*-- mpci footer info --*/
+.mpci-social div{
+	background: url(images/social_icons.png) no-repeat 0 0;
+	height: 13px;
+	width: 13px;
+}
+
+.green {
+	font-size: 16px;
+	color: #669900;
+	text-decoration: none;
+}

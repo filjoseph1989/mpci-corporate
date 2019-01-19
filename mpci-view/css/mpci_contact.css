@@ -1,0 +1,57 @@
+/*  #Project Name: 	MPCI-CORPORATE
+	# Discription:	MPCI-CORPORATE is new division of Midtown Printing Company Incorporated (MPCI) design fo creativity task.
+	# Developer:	Fil Elman
+	# Version:		mpci-corporate 1.0
+	# Website:		www.mpcicorporate.com
+	# copyright:	@Copyright 2014
+*/
+.mpci-sub-contact{
+	background-color: rgba(247, 247, 247, 1);
+}
+#mpci-subcontact{
+	margin: 10px 195px;
+}
+.mpci-location{
+	text-shadow: 2px 1px 1px rgba(255, 255, 255, 1);
+}
+.mpci-contact-map {
+	margin-bottom: 15px;
+	height: 378px;
+}
+#map-canvas{
+	border: 1px solid #FFFFFF;
+}
+#location{
+	background-color: rgba(255, 255, 255, 0.85);
+}
+#captcha{
+	height: 20px;
+}
+#captcha img{
+    margin-top: 2px;
+    margin-left: 1px;
+}
+.mpci-sub-contact table{
+    border-top: 1px solid #b2b2b2;
+    border-left: 1px solid #b2b2b2;
+    border-right: 1px solid #b2b2b2;
+    padding-bottom: 5px;
+}
+/*Zoho Live Chat*/
+#zoholivechat{
+    margin-top: 30px;
+    position: relative;
+    bottom: 0;
+    right: 40px;
+}
+.background{
+	background-color: rgba(255, 255, 255, 1);
+	float: left;
+}
+.background #attachment{
+	border: 1px solid #B3B3B3;
+	width: 187px;
+	font-size: 13px;
+	padding: 2px;
+}
+

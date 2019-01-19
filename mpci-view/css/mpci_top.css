@@ -1,0 +1,63 @@
+/*
+# Project Name: MPCI-CORPORATE
+# Discription:	MPCI-CORPORATE is new division of Midtown Printing Company Incorporated (MPCI) for creative task.
+# Developer:	Fil Elman
+# Version:		mpci-corporate 1.0
+# Website:		www.mpcicorporate.com
+# copyright:	@Copyright 2014
+*/
+
+/*-- mpci_top --*/
+#mpci-top{
+	z-index: 1;
+	position: fixed;
+	padding: 12px 0px 0px 1px;
+	border-left: 1px solid #B0B0B0;
+	border-bottom: 1px solid #B0B0B0;
+	text-shadow: 1px 1px black;
+	background: -webkit-radial-gradient(center bottom, rgba(195, 195, 195, 0.8) 0%, rgba(160, 201, 215, 0) 70%),      
+				-webkit-linear-gradient(top, #969696 0%, #969696 6%, #969696 52%, #5F5F5F 91%, #494949 100%);
+	background: -moz-radial-gradient(center bottom, rgba(195, 195, 195, 0.8) 0%, rgba(160, 201, 215, 0) 70%), 
+				-moz-linear-gradient(top, #969696 0%, #969696 6%, #969696 52%, #5F5F5F 91%, #494949 100%);
+}
+.mpci-menu-left{
+    width: 100%;
+}
+.mpci-menu-right{
+    width: 100%;
+    height: 10px;
+}
+
+.mpci-menu-left ul{
+    float: left;
+}
+.mpci-menu-right ul{
+    float: right;
+}
+
+.mpci-menu-left ul li{
+    display: inline-block;
+    padding-top: 0px;
+}
+.mpci-menu-right ul li{
+    display: inline-block;
+    padding-top: 10px;
+}
+
+.mpci-menu-left ul li a{
+    padding: 0px 7px;
+    font-size: inherit;
+}
+.mpci-menu-right ul li a{
+    padding: 0px 7px;
+    font-size: small;
+}
+.mpci-menu-left ul li a{
+    border-right: 1px solid #D8D8D8;
+    color: #FFFFFF;
+}
+.mpci-menu-right ul li a{
+    border-left: 1px solid #D8D8D8;
+    color: #FFFFFF;
+}
+

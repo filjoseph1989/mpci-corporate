@@ -1,0 +1,35 @@
+NEXT VERSION OF MPCI CORPORATE:
+	33.	Manage email properly.
+	32.	Can add new information for mpci corporate.
+	31.	Use 1 define variable for absolute path.
+	30.	Make a check list for supported extension of the uploaded file.
+	29.	Use the technique in line 543 mpci_control.php when extracting a file extension of the uploaded file.
+	28.	Make a validation for contact number which accept both mobile and land line.
+	27.	Use $_GET['option'] to recieve all the data sent from view.
+	26. Review the classes of code to minimize the code
+	25.	There should not be an error display when there's a changes in URL.
+	24.	There should be a managers account.
+	23.	There should be a supervisor account.
+	22.	There should be a main admin.
+	21.	There should be a limit in the number allowable login attempt if failed to login.
+	20.	When deleting the administrator's record, empty all the in the url after.
+	19.	Make an automatic every 24hours backup, in case of getting system damage.
+	18.	There should be a main administrator that govern the group of administrators
+	17.	Make check list for filtering
+	16.	Make archive
+	15.	Automatic logout
+	14.	kulang ug verification display sa admin members.
+	13.	Add text in the images added to mpci corporate for authentication and protection from thieves.
+	12.	The Letterhead is a document, just create a thumbnails
+	11.	Business must also have a portrait style of thumbnails
+	10.	If the admin update the new images the last display images must be put to archive
+	9.	Other methods contained in the process should be in model
+	8.	Find a way for the created thumbnails which is not in the database to deleted.
+	7.	Mark color red those thumbnails who are not found in the database
+	6.	Allow to upload muliple images in one category
+	5.	Make one stand alone verification code to validate all input from a form.
+	4.  Regarding the delete confirmation process, it is better to use the technique used in price_row_delete in control.php
+	3.  Use mpci_verification class to validate the inputs from login, signup, contact us and other forms.
+	2.	Define the comment like a pseudo code (steps).
+	1.	Define properly the class or object in the next version of mpci corporate
+	

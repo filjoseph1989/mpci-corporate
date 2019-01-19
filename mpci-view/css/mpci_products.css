@@ -1,0 +1,235 @@
+/*
+Project Name: 	MPCI-CORPORATE
+Description:	MPCI-CORPORATE is new division of Midtown Printing Company Incorporated (MPCI) for creative task.
+Developer:		Fil Elman
+Version:		mpci-corporate 1.0
+Website:		www.mpcicorporate.com
+copyright:		@Copyright 2014*/
+
+#mpci-product-title{
+	text-align: center;
+	background-color: rgba(255, 255, 255, 1);
+}
+#mpci-product-title-wapper{
+	border: 1px solid #FFFFFF;
+}
+.mpci-featured {
+	padding: 9px;
+	float:left;
+}
+.mpci-display{
+}
+.mpci-display-products{
+    float: left;
+	text-align: center;
+}
+.mpci-display-products a{
+    line-height: 0;
+}
+.mpci-display img:hover{
+    border: 1px solid #fff;
+	opacity:0.5;
+}
+.image-large img{
+    max-width: 100%;
+}
+
+/* --- homepage featured --- */
+.mpci-products {
+	background-color: #fff;
+	height: 300px;
+	width: 250px;
+	margin: 1px;
+}
+#mpci-product-banner{
+	padding: 0px;
+	height: 24px;
+	position: relative;
+	left: 0px;
+	top: 8px;
+}
+#product-name {
+	font-size: 1.2em;
+	font-weight: bold;
+	background-color: rgba(250, 250, 250, 1);
+	border-top: 1px solid #E4E4E4;
+	border-bottom: 1px solid #E4E4E4;
+	margin-right: 2px;
+}
+.product-wrapper{
+	border: 1px solid #FFFFFF;
+	width: 100%;
+	height: 100%;
+}
+.product-option {
+    cursor: pointer;
+    color: cadetblue;
+    font-weight: 100;
+    font-size: 10px;
+}
+.product-add,
+.product-remove{
+    height: 0px;
+    position: relative;
+}
+.product-add{
+    left: 103px;
+    top: -20px;
+}
+.product-remove a {
+    left: 117px;
+    top: -29px;
+}
+.product-add span,
+.product-remove a span,
+.edit img,
+.remove,
+.close-add,
+.upload-close img{
+	opacity: 0.2;
+}
+.product-add span:hover,
+.product-remove a span:hover,
+.edit img:hover,
+.remove:hover,
+.close-add:hover,
+.upload-close img:hover{
+	opacity: 1;
+	filter: alpha(opacity=40);
+}
+.close-add{
+    margin-left: 10px;
+}
+.remove{
+    margin-left: 2px;
+    cursor: pointer;
+}
+.product-form {
+	display: none;
+	padding: 2px 0px;
+}
+.loader{
+	padding: 110px 0px 0px 90px;
+	display: none;
+}
+.mpci-overlay,
+.mpci-product-overlay{
+	border-top: 1px solid #E4E4E4;
+	margin-top: 19px;
+	margin-left: 2px;
+	margin-right: 2px;
+	height: 253px;
+}
+.upload-close{
+    position: relative;
+    top: 135px;
+    left: 235px;
+	cursor: pointer;
+    width: 0px;
+}
+.feature_input_1{
+	border: 1px solid #B3B3B3;
+	width: 187px;
+	font-size: 10px;
+	padding: 3px 0px;
+	padding-left: 3px;
+}
+.feature_button_1{
+	margin: 2px 0px 4px 1px;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 11px;
+	padding: 1px 11px;
+}
+.mpci-products .product-list-2 {
+	display:none;
+    margin-top: 20px;
+    height: 67%;
+}
+.mpci-products .feature_input{
+	border: 1px solid #B3B3B3;
+	width: 187px;
+	font-size: 10px;
+}
+.mpci-products .feature_button{
+	margin: 2px 0px 4px 1px;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 11px;
+}
+.mpci-products .checkbox{
+	float:left;
+	font-size: 10px;
+	color: cadetblue;
+	padding: 0;
+	margin: 0;
+}
+.mpci-products .feature_checkbox{
+	width: 9px;
+	margin: 0;
+	float:left;
+}
+.mpci-products .Business_Cards img{
+    margin-top: 10px;
+}
+.mpci-products .Business_Cards img:hover{
+	opacity:0.5;
+}
+.mpci-products .feat_2{
+    margin-top: 34px;
+    margin-right: 7px;
+    float: right;
+}
+.mpci-products #feature_1{
+	left: 200px;
+	width: 42px;
+}
+.mpci-products .feat_2 a {
+    font-size: 10px;
+    color: cadetblue;
+}
+
+.mpci-products .product-list{
+    margin-top: 52px;
+    height: 54%;
+}
+.Letterhead-product,
+.Greeting_Cards-product,
+.Flyers-product{
+    margin-top: 20px;
+    height: 65%;
+}
+.mpci-product-update{
+	margin-top: 35px;
+}
+.mpci-product-update a{
+    font-size: 10px;
+    color: cadetblue;
+    margin-left: 200px;
+}
+
+/* -- business card table --*/
+/*---------------------------------------*/
+
+.mpci-business-table{
+	text-align: center;
+}
+.mpci-business-table #pricing_table{
+	text-align:center;
+	padding: 5px 0px;
+	text-shadow: 1px 1px 1px rgba(255, 255, 255, 1);
+}
+.mpci-business-table table{
+	width: 760px;
+	height: 204px;
+	border-color: #FFFDFD;
+	background-color: #fff;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+#table_top{
+	padding: 10px 0px;
+}
+#table_top strong{
+	font-size: 16px;
+}

@@ -1,0 +1,14 @@
+.mpci-productdesign-background{
+	background-color: #fff;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#drawing-zone{
+	border: 1px solid #888888;
+	margin-right: 10px;
+}
+#canvas{
+	border: 1px solid #888888;
+	margin: 10px;
+}

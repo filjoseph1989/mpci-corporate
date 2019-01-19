@@ -1,0 +1,104 @@
+/*  #Project Name: 	MPCI-CORPORATE
+	# Discription:	MPCI-CORPORATE is new division of Midtown Printing Company Incorporated (MPCI) design fo creativity task.
+	# Developer:	Fil Elman
+	# Version:		mpci-corporate 1.0
+	# Website:		www.mpcicorporate.com
+	# copyright:	@Copyright 2014
+*/
+
+.mpci-form{	
+	margin: 10px 242px;
+}
+#mpci-signup{
+	background-color: rgba(255, 255, 255, 0.85);
+}
+.form-title{
+	font-size: 20px;
+	font-weight: bold;
+}
+.mpci-registration table {
+	width: 300px;
+}
+.mpci-registration td {
+	font-size: 12px;
+}
+.mpci-registration label {
+	display: block;
+}
+.input-container {
+	padding: 1px;
+}
+.inputs,.date-inputs,.gender-inputs{
+	font-size: 11px;
+	padding: 3px;
+	margin-top: 2px;
+}
+.inputs {
+	width: 210px;
+}
+.date-inputs{
+	width: 70px;
+}
+.gender-inputs{
+	width: 92px;
+}
+.input-select {
+	padding: 0px;
+}
+.mpci-registration select {
+	margin-left: 1px;
+	margin-right: 6px;
+	font-size: 11px;
+	padding: 3px;
+	margin-top: 2px;
+}
+.mpci-button {
+	margin: 2px 0px 2px 2px;
+	outline: none;
+	cursor: pointer;
+	display: inline-block;
+	padding: 6px 6px 4px;
+	background: -moz-linear-gradient(center top, #F17A00, #FFA500);
+	background: -webkit-gradient(linear, left top, left bottom, from(#F17A00), to(#FFA500));
+	background: -o-linear-gradient(top, #F17A00, #FFA500);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#F17A00', EndColorStr='#FFA500');
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+
+/* -- common declaration --*/
+.inputs,.mpci-registration select,.mpci-button,.date-inputs,.gender-inputs{
+	color: #333333;
+	border: 1px solid #B3B3B3;
+}
+.inputs,.mpci-registration select,.date-inputs,.gender-inputs{
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	transition: border linear 0.2s, box-shadow linear 0.2s;
+}
+.mpci-registration select,.mpci-button{
+	width: auto;
+}
+
+/* -- use in contact form --*/
+#mpci-message{
+	width: 784px;
+	border: 1px solid #888888;
+	display:none;
+}
+#mpci-message-wrapper{
+	padding: 10px;
+}
+
+/* -- use in tinymce --*/
+#signtitle,
+#title{
+	border: 1px solid #898989;
+}
+#signtitle{
+	width: 212px;
+}
+#title{
+	width: 676px;
+}
+
+

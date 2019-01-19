@@ -1,0 +1,184 @@
+WORKING ON:
+	Upload own design.
+	
+
+	
+NEXT TASK:
+	
+	
+	
+
+	
+
+REVIEW:
+	3.	Review classes.
+	2.	Make a message display to those user who's email address is not verified.
+	1. 	Add function which allow administrator to reset password the same sa the user.
+	
+	
+
+MPCI CORPORATE FEATURES
+	4.	Make a dimension detector which recognize the width and height.
+	3.	Make a check all for deleting the item of a category.
+	2. 	Set a thumbnail from the display list of the product.
+	1. 	Make a clean URL.
+
+
+
+ACCOMPLISHMENTS OUTLINE:
+	1.	Sending email message with an attachment.
+		1.	Use the email address of the registered administrator as email receiver.
+		2.	clean the temporary file uploaded to the server during attachment process.
+		
+		
+		
+		
+SPECIFIC ACCOMPLISHMENTS LOG:
+JANUARY:
+	19.	Send Email to administrator.
+		Research on how to modify the slider of the midtown.com.ph.
+	17:	Display the administrator list.
+		Show individual information about administrator.
+	16:	Solved the problem which proceed to send email if there is error in attachment.
+	15:	code which clean the temporary uploaded files in the server during the attachment in the email, 
+		and also determine the supported format of the attachment.
+		Use the registered administrator to receive emails in contact us form.
+		Settle the login of the new registered admin..
+	14:	Update the contact us which include sending email to administrator with attachment.
+		Continue about making the outline of the mpci corporate project..
+	13: Make mpci project outline.
+	12: Update the contact us form layout.
+		Review the contact us form back end function.
+		Add attachment to contact form.
+	10:	Don't display the confirmation to delete a single row in a price table if admin will request for adding new row.
+	09:	Print a confirmation to remove the price table column.
+		Display the product title, product list, and product table price after the confirmation to delete one row of the price table.
+	08:	Successfully created a validation program for the input from the update price table.
+		Done testing the validation program for update price table
+		Done update the "how data is updated?" using new sets of array.
+		Can INSERT/ADD data from price table form to database of price.
+		Convert the value of price and tax to standard number format for price.
+		Can remove one row in a price table.
+	07:	Successfully made a class that validate of input from the form.
+		Remove the method validate_price_data in mpci_validate.php
+	06:	Successfully determined what product and last row number in a code.
+		Generate a new price identification (id)
+	05:	Add new row in the price table.
+
+
+DECEMBER:
+	20:	Update database online and test.
+	19:	Update the email sending in contact us
+		Update the sending email  to user/client
+		Remove the unnecessary class in mpci-mailer folder.
+		Update the send_users_mail in mpci_mailer.php
+		Update the price table base on the submitted data from the form in the price table.
+	18:	Fix the bug that the sent email will fall to spam.
+		Fix the bug that display a message in email "this may not be sent from,"
+	17:	Fix the bug regarding the forgot password in the login.
+		Update the online side of the mpcicorporate
+	16: Display input box to edit price table data.
+		Fix some bugs in forgot password function.
+	15:	Continue to make display input box to edit price table data.
+		Fix some error of not sending the data from form.
+	13:	Display input box to edit price table data.
+	12:	Fix the bug which display images not intended to be display
+		Prevent from direct access of files	
+		Made .htaccess file
+	11:	No accomplishment.
+	10.	Add thumbnail to mpci_products when upload.
+		Make thumbnail as a display of all list of products when the category is click.
+		Update the phpmyadmin of webtoprint.midtown.com.ph
+	09:	Trace the remove for large image uploaded. Should not remove all the product listed in mpci_products table.
+		Confirm price to be a number.
+		Make sure when adding new category, the title doesn't repeat.
+	08:	If the category with plus sign is remove, search for the next rank of productID wherein the plus sign need to be assign.
+		Fixed the problem of the category which do not display the image when the title of the category is changed in webtoprint.
+		Fix the change position of flyers.
+		Fix the unlink error when refresh after a thumbnail is deleted.
+		Check the filename of the image being uploaded to prevent any mysql injection.
+		Fix the bug which do not display the large image when the category's title is change.
+	06:	Fix the bug on adding new category then delete after.
+		Fix the bug the replace a default thumbnail when a display thumbnail is deleted.
+		Complete the simplification of mpci_products.php code
+	05:	The default image will display if the thumbnail of the category id deleted.
+		If there's only one category remain, the system will prevent from deleting it, so that, you can add new category next time.
+		and instead of deleting the remaining category, only the content are allowed to be deleted.
+		Make a default image to be display as a thumbnail, if the official thumbnail is not yet set
+	04:	Update the jquery of the upload file in the product
+		Update how mpci_product.php organize the data before sending to control.php
+		Simplify the mpci_product.php file
+		Make a jquery for close options
+	03:	Update the process of making a new name of the category
+		do not delete if only one category exist.
+		Update the JQuery for effects of the thumbnail.
+	02:	Make a jquery effects for the category title
+
+NOVEMBER:
+	28: Display of the product
+	27: 
+	26:	Update the method upload_file_in_product_group in class mpci_process in mpci_process.php
+		Remove the checkbox for setting of new price
+		Update the UPDATE PRODUCT IMAGES in mpci_control.php
+		Continue to update the CHANGE PRICE in mpci_control.php
+		Update the pricing input in the featured area in home.
+		Make a short filename for any uploaded images.
+	25:	Give a solution to the problem which add new category even don't have a new title for a new category.
+		Made an auto modify filename for a thumbnail of any uploaded product images
+		Successfully updated the automatic making of thumbnail for any uploaded images of a product
+		Made a function which determine a valid filename of any uploaded images.
+		made for a product page where an admin has the authority to set a thumbnail only for product display.
+
+	24: chikka and reading of science
+	21:	Successfully created the loading presentation in time when the admin update the images in a certain product category.
+		research for a card maker code online.
+	20: Working on the display of the product.
+	19:	Working with the display of the product
+
+	12:	 
+	11:	Update the css for home featured for products and product page
+		start adding the function that add new category
+	10:	Try to find the solution of uploading the images to mpci corporate online. 
+	08:	find the solution why the images doesn't display in the webtorpint.midtown.com.ph
+	07: ftp account for webtoprint
+		login:webtoprint@midtown.com.ph
+		password: webtoprint123456
+		Create a subdomain in midtown.com.ph forn mcpi corporate
+		Upload the mpci corporate website to the subdimain.
+		fixed the some encountered errors after the mpci corporate was finish uploaded.
+			
+	06:	Arrange the css declarations
+		retouch the design
+		Make a thumbnails for home page featured product images.
+		Done making auto thumbnails in featured images in the homepage.
+	05:	Done making the function the changes the category title
+	04:	Done making a different sizes of product thumbnails
+		Start making a function that allows editing the category's title.
+	03
+		1. Continue working on defining the defferent thumbnails sizes
+		2. Arrange the task and deadlines  in asana
+		3. make thumbnails for bookmarks
+OCTOBER
+	31:
+		1. Define the defferent sizes for product thunbnails
+	30:
+		1. Simplify the code for making thumbnails when uploading the featured images of in category under a particular product.
+		2. done getting the standard dimension for every product.
+	29:
+		1. Change the design in top <navigation>, the time of the slider will display and the layout of contact-us
+		   and the location of chat is transfer.
+	28:	
+		1. Fixed the errors encounter during the automatic generate product_id when no record found in database
+		2. Fixed the error that create a thumbnails when the original image already exist.
+	27:
+		1. add another checkbox for setting new featured price.
+		2. make an auto thumbnails creator.
+	24:
+		1. Research a way to make business card editor for mpci corporate.
+	23:
+		1. Research about business how to make design
+	22:
+		1. Add 2 options to update the image and price display in product category.
+		2. Complete the function that handle the 2 options.
+		3. Able to add a new product <new image actualy> to one of the category of a particular product, 
+		   and also can be set as featured images for that category where it is being uploaded.

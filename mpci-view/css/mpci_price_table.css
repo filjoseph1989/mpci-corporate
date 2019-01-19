@@ -1,0 +1,60 @@
+/*  #Project Name: 	MPCI-CORPORATE
+	# Discription:	MPCI-CORPORATE is new division of Midtown Printing Company Incorporated (MPCI) design fo creativity task.
+	# Developer:	Fil Elman
+	# Version:		mpci-corporate 1.0
+	# Website:		www.mpcicorporate.com
+	# copyright:	@Copyright 2014	*/
+
+.price-table-submit{}
+.price-table{
+    display: none;
+}
+.price-table .price-table-accept{
+    width: 100px;
+}
+.price-table .price-table-accept{
+	margin-top: 12px;
+    margin-left: 2px;
+	margin-right: 2px;
+}
+.price-table-submit{
+	margin-top: 5px;
+}
+.mpci-business-table-border{
+    float: left;
+    border-right: 1px solid #888888;
+    border-bottom: 1px solid #888888;
+    border-left: 0;
+    margin-left: 0px;
+    height: 50px;
+}
+.mpci-business-table-border-top{
+    border-top: 1px solid #888888;
+}
+#price-div-table{
+    margin-left: 10px;
+	width: 758px;
+    float: left;
+    background-color: white;
+}
+#first-div,
+#div-first{
+    border-left: 1px solid #888888;
+}
+.mpci-business-table-border img{
+    margin-top: 15px;
+}
+#note{
+	float:left;
+}
+#take-note{
+	float:left;
+	width: 710px;
+}
+#take-note p{
+    text-align: left;
+}
+#add-new-price,
+.remove-new-price{
+    cursor: pointer;
+}

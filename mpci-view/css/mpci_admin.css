@@ -1,0 +1,103 @@
+/*  #Project Name: 	MPCI-CORPORATE
+	# Discription:	MPCI-CORPORATE is new division of Midtown Printing Company Incorporated (MPCI) design fo creativity task.
+	# Developer:	Fil Elman
+	# Version:		mpci-corporate 1.0
+	# Website:		www.mpcicorporate.com
+	# copyright:	@Copyright 2014	*/
+
+.mpci-administration{
+	padding:10px;
+	float: left;
+}
+.mpci-admin-menu{
+	background-color: rgba(255, 255, 255, 0.85);
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border: 1px solid #ffa500;
+	height: 12px;
+	padding: 10px;
+	padding-left: 15px;
+	font-weight: bold;
+}
+.mpci-administration ul li{
+	background-color: rgba(255, 255, 255, 0.85);
+	border: 1px solid #888888;
+	border-top: 1px solid #FFFFFF;
+	display: block;
+	padding: 0px 15px;
+	padding-right: 9px;
+	margin-bottom: 0;	
+	width: 100px;
+}
+.mpci-administration ul li a{
+	font-size: 12px;
+}
+.mpci-admin-content{
+	border-top-left-radius: 0;
+	border-top-right-radius: 5px;
+	border: 1px solid #888888;
+	padding-right: 7px;
+	margin: 11px 0 0 0;
+	width: 585px;
+	float: left;
+}
+.mpci-admin-content .wrapper{
+	border-top-right-radius: 5px;
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-bottom: 5px;
+}
+.mpci-admin-tinymce{
+	border: 1px solid #888888;
+	margin: 10px 0 5px 5px;
+	padding-right: 2px;
+	width: 781px;
+	float: left;
+}
+.wrap{
+	padding-bottom: 5px;
+}
+.product{
+    padding: 10px;
+}
+#indi{
+    background-color: #fff;
+    padding-bottom: 55px;
+    padding-top: 1px;
+}
+#edit-site{}
+#edit-site table{
+	border-color: #FFFDFD;
+	background-color: #fff;
+	width: 580px;
+}
+#edit-site table tr td{
+	text-align:center;
+}
+#edit-site table tr td a{
+	font-size:12px;
+}
+#edit-site table tr td .mpci-remove{
+	color: brown;
+}
+.info{
+    text-align: left;
+    margin-left: 10px;
+    border-bottom: 1px solid rgba(136, 136, 136, 0.2);
+}
+#admin_default{
+	height: 244px;
+}
+.mpci-sub-tinymce{
+	margin-left: 1px;
+}
+.mpci-sub-tinymce ul li{ 
+	background-color: rgba(255, 255, 255, 0.85);
+	border-right: 1px solid #888888;
+	border-left: 1px solid #FFFFFF;
+	margin-left: 0;
+}
+.mpci-sub-tinymce ul li a{
+	margin-right: 5px;
+	margin-left: 5px;
+}
